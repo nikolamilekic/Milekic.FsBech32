@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Description>Bech32m encoding implemented in F#</Description>
+    <Authors>Nikola Milekic</Authors>
+    <Copyright>Copyright © $([System.DateTime]::Now.Year) Nikola Milekic</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/nikolamilekic/Milekic.FsBech32</PackageProjectUrl>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="paket.references" />
+    <Compile Include="Types.fs" />
+    <Compile Include="Bech32.fs" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

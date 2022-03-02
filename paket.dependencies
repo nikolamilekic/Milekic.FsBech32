@@ -1,0 +1,17 @@
+storage none
+source https://api.nuget.org/v3/index.json
+
+framework: auto-detect
+
+nuget FSharp.Core >= 6.0 lowest_matching: true
+nuget GitInfo copy_local: true
+nuget Microsoft.SourceLink.GitHub copy_local: true
+nuget Milekic.YoLo storage:packages
+nuget FSharpPlus
+
+//Testing
+nuget Unquote
+nuget Microsoft.NET.Test.Sdk
+nuget YoloDev.Expecto.TestSdk
+nuget Expecto
+nuget Expecto.FsCheck

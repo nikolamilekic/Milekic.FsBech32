@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C0A1E79-C160-4E0D-9F72-6D67AD2DD80E}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+		global.json = global.json
+		README.md = README.md
+		RELEASE_NOTES.md = RELEASE_NOTES.md
+		build.fsx = build.fsx
+		build.fsx.lock = build.fsx.lock
+		paket.lock = paket.lock
+		GitInfo.txt = GitInfo.txt
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Milekic.FsBech32", "src\Milekic.FsBech32\Milekic.FsBech32.fsproj", "{A58C6A96-8308-4C7E-87A0-7F05C32AC05B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Milekic.FsBech32.Tests", "tests\Milekic.FsBech32.Tests\Milekic.FsBech32.Tests.fsproj", "{CE5104FA-6842-40C0-9E60-BFD42B5FDA25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A58C6A96-8308-4C7E-87A0-7F05C32AC05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58C6A96-8308-4C7E-87A0-7F05C32AC05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58C6A96-8308-4C7E-87A0-7F05C32AC05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58C6A96-8308-4C7E-87A0-7F05C32AC05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5104FA-6842-40C0-9E60-BFD42B5FDA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5104FA-6842-40C0-9E60-BFD42B5FDA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5104FA-6842-40C0-9E60-BFD42B5FDA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5104FA-6842-40C0-9E60-BFD42B5FDA25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
